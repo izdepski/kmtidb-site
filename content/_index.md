@@ -5,10 +5,10 @@ include_footer: false
 
 <div class="landing">
 	<div class="landing-msg">
-		<p>PARDON OUR</p>
-		<p>DUST. WE’RE</p>
-		<p>UNDER</p>
-		<p>CONSTRUCTION.</p>
+		<p class="underline">PARDON OUR</p>
+		<p class="underline">DUST. WE’RE</p>
+		<p class="underline">UNDER</p>
+		<p class="underline">CONSTRUCTION.</p>
 	</div>
 	<div class="landing-sub-msg">
 		Check back soon.
