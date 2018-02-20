@@ -18,7 +18,7 @@ body {
 	height: 100%;
 	background-color: #000;
 	margin: 0;
-	color: #FFF;
+	color: #A8A8A8;
 }
 
 .header {
@@ -41,7 +41,7 @@ body {
 	overflow: hidden;
 	width: 204px;
 	height: 174px;
-	background-image: url('../images/kmtidb_logo.png');
+	background-image: url('../images/kmtidb_logo_grey.png');
 	background-size: auto 100%;
 	background-position: 0 0;
 	background-repeat: no-repeat;
