@@ -1,0 +1,14 @@
+<footer class="footer">
+	<div class="footer-inner">
+		<ul>			
+			<li>© <span id="year"></span></li>
+		</ul>
+	</div>
+
+	<script>
+		var today = new Date();
+		var year = today.getFullYear();
+		var yearspan = document.getElementById('year');
+		yearspan.innerHTML = year;
+	</script>
+</footer>
