@@ -1,0 +1,188 @@
+@font-face {
+  font-family: 'AvenirReg';
+  src: url("../fonts/AvenirNextLTPro-Regular.otf");
+}
+
+@font-face {
+  font-family: 'AvenirDemiIt';
+  src: url("../fonts/AvenirNextLTPro-DemiIt.otf");
+}
+	
+html {
+	height: 100%;
+	font-family: "AvenirReg", Arial, Helvetica;
+	font-size: 12px;
+}
+
+body {
+	height: 100%;
+	background-color: #000;
+	margin: 0;
+	color: #FFF;
+}
+
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: block;
+	z-index: 1000;
+}
+
+.header-inner {
+	display: block;
+	padding: 60px 0 30px;
+	margin: 0 60px;
+}
+
+.header-logo {
+	display: inline-block;
+	overflow: hidden;
+	width: 204px;
+	height: 174px;
+	background-image: url('../images/kmtidb_logo.png');
+	background-size: auto 100%;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.header-logo-right {
+	float: right;
+	width: 16px;
+	height: 87px;
+	background-position: -122px 0;
+}
+
+.header-logo img {
+	width: auto;
+	height: 174px;
+}
+
+.main {
+	position: relative;
+	display: block;
+	height: 100%;
+	margin: 0 24px;
+}
+
+.landing {
+	font-family: "AvenirDemiIt", Arial, Helvetica;
+	transform: scale(1.17, 1.08);
+	letter-spacing: 6px;
+	margin: 0 26% 0 30%;
+	padding: 15% 0 0 0;
+}
+
+.landing p {
+	margin: 0;
+}
+
+.landing-msg {
+	font-size: 60px;
+	line-height: 60px;
+	text-decoration: underline;
+}
+
+.landing-sub-msg {
+	text-align: right;
+	font-size: 30px;
+	line-height: normal;
+	margin: 40px 0 0 0;
+}
+	
+.footer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	display: block;
+	z-index: 1000;
+}
+
+.footer-inner {
+	display: block;
+	padding: 12px 0 24px;
+	margin: 0 60px;
+	border-top: thin solid;
+}
+
+.footer-inner  ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+.footer-inner  ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 14px;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+	.header-logo {
+		width: 120px;
+		height: 100px;
+	}
+	
+	.header-logo-right {
+		width: 16px;
+		height: 52px;
+		background-position: -68px;
+	}
+	
+	.landing {
+		padding: 22% 0 0 0;
+	}
+	
+	.landing-msg {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	
+	.landing-sub-msg {
+		text-align: left;
+		font-size: 20px;
+	}
+}
+		
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.header-logo {
+		width: 96px;
+		height: 80px;
+	}
+	
+	.header-logo-right {
+		width: 16px;
+		height: 44px;
+		background-position: -56px;
+	}
+	
+	.header-inner {
+		padding: 24px 0 10px;
+		margin: 0 24px;
+	}
+	
+	.landing {
+		margin: 0 0 0 18%;
+		padding: 45% 0 0 0;
+	}
+	
+	.landing-msg {
+		font-size: 20px;
+		line-height: 20px;
+	}
+	
+	.landing-sub-msg {
+		text-align: left;
+		font-size: 12px;
+	}
+	
+	.footer-inner {
+		margin: 0 24px;
+	}
+	
+	.footer-inner ul{
+		text-align: center;
+	}
+}
